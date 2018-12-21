@@ -22,11 +22,6 @@ int main(){
             }
         }
 
-        if(infix[i] == '+' || infix[i] == '-'){
-            postfix += ' ';
-            _operator = infix[i];
-        }
-
     }
 
     cout << postfix << endl;
