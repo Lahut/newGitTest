@@ -13,7 +13,7 @@ int main(){
 
     for(int i = 0; infix[i] != '\0'; i++){
         if(infix[i] != '+' && infix[i] != '-' && infix[i] != ' '){
-            postfix += infix[i];
+            postfix -= infix[i];
             cnt += 1;
             if(cnt > 1 && (_operator == '+' || _operator == '-') 
                         && (infix[i+1] == ' ' || infix[i+1] == '\0')){
